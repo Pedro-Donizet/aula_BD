@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5B62682-E957-A8DB-AC42-2C21200C24DD" name="estado">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:11:24 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_estado" id="6F89FF29-315F-705A-B076-9563D6107EF0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:11:46 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pais" id="97C1AB2D-F340-ED53-3300-2DCDDF413766">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:12:27 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_estado" id="A12EA7A6-CAC2-306A-940A-AB0FDAF3C207">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:12:53 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pais1" id="49B642D8-E593-F469-90CE-ABB97E4B1933">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:29:37 UTC</createdTime>
+<generatorID>D5BAA6E1-8984-98F3-92EC-30C53E8BEB7C</generatorID>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<referedAttribute>4A17E00C-A005-CD65-E385-169BA23459A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76CA4788-299A-F4D4-DDCB-0B5BA65B80BC" name="estado PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:20:11 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F89FF29-315F-705A-B076-9563D6107EF0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8B1114D-82BC-B589-7E33-AA335C845881" name="bairro">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:32:32 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_barro" id="CBF2C3D1-AA2B-71AE-5CCF-F6F8CA70CA4A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:32:45 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cidade" id="EA9F7FE9-7DC2-1A58-CCCF-525EEA2DB0A4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:33:21 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_bairro" id="42F53781-A74A-F837-C414-EEF0BE1ED679">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:33:42 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A1CFD344-A0AB-8655-AB70-59FA04732784" name="bairro PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:33:40 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CBF2C3D1-AA2B-71AE-5CCF-F6F8CA70CA4A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

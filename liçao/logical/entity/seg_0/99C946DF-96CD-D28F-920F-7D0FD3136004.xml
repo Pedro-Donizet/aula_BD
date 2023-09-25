@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99C946DF-96CD-D28F-920F-7D0FD3136004" name="cliente">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:07:50 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="179E9FE7-1307-B0D3-5D33-D6E6AB07769A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:08:02 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_cliente" id="914070F6-FAF8-901B-5BB7-8C28DD0D8C7A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:09:23 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="E671C6A4-A4FB-D4D6-59CE-1D6A3FCE890A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:10:12 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A01D5CFD-A48E-5F03-9E34-88CE7D88579F" name="cliente PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:19:56 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>179E9FE7-1307-B0D3-5D33-D6E6AB07769A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

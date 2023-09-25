@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02E9D9BC-D3CE-7B72-C560-9B740CF0F538" name="pais">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:10:43 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pais" id="4A17E00C-A005-CD65-E385-169BA23459A5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:10:56 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_pais" id="9F2D133D-23A2-6857-8CEB-81A9A760E7CD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:11:11 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BEE9F2E6-7BB2-B6B1-1F60-BD6430DA8EF1" name="pais PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:20:07 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<engineerTo>
+<item key="7EC09B7E-C9E9-F797-BD16-4255C2DA63B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A17E00C-A005-CD65-E385-169BA23459A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

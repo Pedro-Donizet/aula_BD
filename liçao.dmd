@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="liçao" id="345B9C69-B171-A116-0374-DD15A9171117" version="3.5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:07:02 UTC</createdTime>
+<ownerDesignName>liçao</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>345B9C69-B171-A116-0374-DD15A9171117</designId>
+</OSDM_Design>
